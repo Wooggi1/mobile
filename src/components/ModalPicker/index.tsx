@@ -8,7 +8,7 @@ interface ModalPickerProps {
   selectedItem: (item: CategoryProps) => void;
 }
 
-const { width: WIDTH, height: HEIGHT} = Dimensions.get('window')
+const { width: WIDTH, height: HEIGHT } = Dimensions.get('window')
 
 export function ModalPicker({ options, handleCloseModal, selectedItem }: ModalPickerProps){
 
